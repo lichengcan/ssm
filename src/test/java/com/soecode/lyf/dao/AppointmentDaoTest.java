@@ -13,7 +13,7 @@ public class AppointmentDaoTest extends BaseTest {
 
 	@Test
 	public void testInsertAppointment() throws Exception {
-		long bookId = 1000;
+		long bookId = 1002;
 		long studentId = 12345678910L;
 		int insert = appointmentDao.insertAppointment(bookId, studentId);
 		System.out.println("insert=" + insert);
